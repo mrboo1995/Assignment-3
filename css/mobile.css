@@ -1,0 +1,65 @@
+@media screen and (max-width: 576px) {
+  section .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  /* Navbar */
+  .topnav .hidden,
+  .avatar {
+    display: none;
+  }
+
+  .topnav {
+    display: block;
+  }
+
+  .topnav1 {
+    margin: 10px;
+    padding: 10px;
+  }
+  /* About */
+  .container2 {
+    display: block;
+  }
+  .container2 .mtnn,
+  .container2 .ttcn,
+  h1 {
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+  }
+  /* Job-infor */
+
+  .container3 {
+    display: block;
+    width: 100%;
+  }
+
+  /* certificate */
+  .chungchi {
+    display: block;
+  }
+  .cc1,
+  .cc2,
+  .cc3 {
+    border-left: none;
+    border-bottom: 1px solid #d6c08d;
+  }
+  /* Project */
+  .duan {
+    display: block;
+  }
+  img,
+  .cvcanhan {
+    width: 100%;
+  }
+  /* footer */
+
+  .iconfooter {
+    font-size: 20px;
+  }
+  .hide {
+    display: none;
+  }
+}

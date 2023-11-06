@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+.container {
+  margin: 0 auto;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+.body {
+  font-family: sans-serif;
+}
+/* Ảnh banner */
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Phần Navbar */
+.topnav {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.topnav i {
+  color: rgb(0, 123, 255);
+}
+.topnav1 a {
+  color: black;
+  text-decoration: none;
+}
+.topnav1 span {
+  color: rgb(123, 131, 131);
+  font-size: 10px;
+  font-weight: 10px;
+  margin-left: 10px;
+}
+/* Thông Tin Cá Nhân */
+.container2 {
+  display: grid;
+  width: auto;
+  grid-template-columns: 50% 50%;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  gap: 20px;
+}
+.container2 h1 {
+  font-size: 30px;
+  margin: auto;
+}
+.container2 p,
+ul {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  color: #706f6c;
+}
+.iconttcn {
+  color: rgb(0, 123, 255);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.hide {
+  display: none;
+}
+/* Thông tin nghề nghiệp */
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin: 0 auto;
+  gap: 20px;
+}
+.information {
+  border: 1px solid rgba(176, 174, 174, 0.921);
+}
+.container3 h1 {
+  margin-top: 20px;
+}
+.thongtinnn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.thongtinnn h1 {
+  grid-column: 1 / 3;
+  justify-self: center;
+  font-size: 30px;
+  margin-left: 15px;
+}
+.thongtinnn ul {
+  grid-column: 1 / -1;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container3 i {
+  font-size: 40px;
+  color: rgb(148, 152, 156);
+  justify-self: center;
+  margin-top: 15px;
+}
+.container3 p,
+span {
+  font-family: sans-serif;
+  font-size: 12px;
+  margin: 15px 15px 15px 15px;
+}
+em {
+  background-color: aqua;
+}
+.hideview,
+.viewmore,
+.viewless {
+  display: none;
+}
+.viewmore {
+  background-color: rgb(233, 227, 146);
+  border: 1px solid rgb(233, 227, 146);
+  border-radius: 25%;
+}
+.viewless {
+  background-color: rgb(233, 227, 146);
+  border: 1px solid rgb(233, 227, 146);
+  border-radius: 25%;
+}
+.information:hover .viewmore {
+  display: block;
+}
+/* Sở Thích */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.thongtinnn .iconsothich {
+  color: rgb(7, 119, 210);
+  font-size: 20px;
+  border: 1px solid rgb(7, 210, 180);
+  border-radius: 100%;
+  padding: 10px 10px 10px 10px;
+  margin-right: 20px;
+}
+/* Kỹ năng */
+.kynang span {
+  background-color: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.kynang p,
+span {
+  margin: 10px;
+}
+.thongtinnn .ngonngu {
+  background-color: #b1b0ad;
+}
+/* Chứng chỉ - Giải thưởng */
+.section-title {
+  margin-bottom: 20px;
+}
+.chungchi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cc1 {
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+  border-bottom: 1px solid #d6c08d;
+}
+.cc2 {
+  display: flex;
+  padding: 20px;
+  border-left: 1px solid #d6c08d;
+  border-bottom: 1px solid #d6c08d;
+}
+.cc3 {
+  display: flex;
+  padding: 20px;
+}
+.cc1 p {
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+/* Dự Án */
+.duan {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tieude {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.year {
+  background-color: aquamarine;
+  border: 1px solid aquamarine;
+  border-radius: 30%;
+}
+.cvcanhan {
+  background-color: #d9d7d2;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.cvcanhan span {
+  color: #706f6c;
+  font-size: 15px;
+}
+.column2 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+/* Footer */
+.iconfooter {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  color: #9c9a96a8;
+}
+.iconfooter i {
+  color: #199cdb;
+}
+/* phần nâng cao avatar */
+.nav-bar {
+  position: relative;
+}
+.avatar {
+  position: absolute;
+  left: 45%;
+}
+.avatar img {
+  border: 5px solid white;
+  border-radius: 50%;
+}
+/* DIGITAL-CV */
+.allcontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

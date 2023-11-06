@@ -1,0 +1,35 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Navbar */
+  .avatar,
+  .hidden {
+    display: none;
+  }
+  /* About */
+
+  /* Job info */
+  .container3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  .hide {
+    display: none;
+  }
+  /* Certificate */
+  .chungchi {
+    width: 100%;
+  }
+  .cc1,
+  .cc2,
+  .cc3 {
+    gap: 20px;
+  }
+  /* Project */
+  .duan {
+    width: 100%;
+  }
+  .cvcanhan {
+    width: 34%;
+  }
+  /* Footer */
+}
